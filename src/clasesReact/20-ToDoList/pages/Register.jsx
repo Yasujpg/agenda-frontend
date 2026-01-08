@@ -1,29 +1,41 @@
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import axios from "axios";
 import "./login.css";
 
-const API_URL = "https://agenda-backend.onrender.com";
+const API_URL = "https://agenda-backend-1yi8.onrender.com";
 
-const Register = () => {
-  const navigate = useNavigate();
-
+function Register() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
 
-  const onSubmit = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setError("");
+    setSuccess("");
+
+    const formData = new FormData();
+    formData.append("email", email);
+    formData.append("password", password);
 
     try {
-      await axios.post(`${API_URL}/api/register`, {
-        email,
-        password,
+      const res = await fetch(`${API_URL}/api/register`, {
+        method: "POST",
+        body: formData,
       });
 
-      navigate("/login");
+      const data = await res.json();
+
+      if (!res.ok) {
+        setError(data.error || "Error al crear el usuario");
+        return;
+      }
+
+      setSuccess("Usuario creado correctamente");
+      setEmail("");
+      setPassword("");
     } catch (err) {
-      setError("Error al crear el usuario");
+      setError("No se pudo conectar con el servidor");
     }
   };
 
@@ -33,7 +45,7 @@ const Register = () => {
         <h2>Create account</h2>
         <p className="subtitle">Register a new user</p>
 
-        <form onSubmit={onSubmit}>
+        <form onSubmit={handleSubmit}>
           <div className="input-group">
             <span>📧</span>
             <input
@@ -59,17 +71,11 @@ const Register = () => {
           <button className="login-btn">REGISTER</button>
 
           {error && <p className="error">{error}</p>}
-
-          <p style={{ marginTop: "16px", fontSize: "14px" }}>
-            Already have an account?{" "}
-            <Link to="/login" style={{ color: "#ff8fe5" }}>
-              Login
-            </Link>
-          </p>
+          {success && <p style={{ color: "#7CFFB2" }}>{success}</p>}
         </form>
       </div>
     </div>
   );
-};
+}
 
 export default Register;
