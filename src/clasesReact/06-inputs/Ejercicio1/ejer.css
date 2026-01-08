@@ -1,0 +1,30 @@
+.eje-ppal{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.div-sec{
+    width: 400px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.parte2{
+    width: 80%;
+    height: 300px;
+    border: 1px solid #000;
+    margin-top: 30px;
+}
+
+.verde{
+    background-color: rgb(154, 196, 154);
+}
+.azul{
+    background-color: rgb(101, 166, 250);
+}
+.amarillo{
+    background-color: rgb(240, 240, 138);
+}
+.rojo{
+    background-color: rgb(236, 139, 139);
+}

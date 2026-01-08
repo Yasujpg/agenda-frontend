@@ -1,0 +1,49 @@
+.calc-container {
+  width: 300px;
+  background: #28a7ff;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.inputs {
+  display: flex;
+  /* display: block; */
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.inputs input {
+  width: 40%;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+}
+
+.operations-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.operations-buttons button {
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: white;
+  font-size: 18px;
+}
+
+.calc-btn,
+.limpiar-btn {
+  margin: 10px 5px;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

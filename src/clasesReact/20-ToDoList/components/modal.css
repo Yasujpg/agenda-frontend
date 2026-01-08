@@ -1,0 +1,41 @@
+.modal-task {
+  background: #f3d3f7;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-actions button {
+  margin-left: 6px;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.modal-actions button:first-child {
+  background: #6c63ff;
+  color: white;
+}
+
+.modal-actions button:last-child {
+  background: #ff6b6b;
+  color: white;
+}
+
+.modal-task {
+  background: #f3d3f7;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.modal-task.done {
+  opacity: 0.5;
+  text-decoration: line-through;
+}

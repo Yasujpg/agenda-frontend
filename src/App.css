@@ -1,0 +1,14 @@
+/* #root {
+  max-width: 1280px;
+} */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.ppal{
+  padding: 40px;
+  /* background-color: rgb(161, 241, 241); */
+  min-height: 100vh;
+}

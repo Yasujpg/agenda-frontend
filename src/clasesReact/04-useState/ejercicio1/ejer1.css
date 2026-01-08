@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.ejer1-ppal{
+    height: 100vh;
+}
+
+.claro{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.oscuro{
+    background-color: black;
+    color: aliceblue;
+}
+.div-2{
+    padding: 50px;
+    width: 300px;
+    
+
+}
+.rojo{
+    background-color: red;
+}
+.verde{
+    background-color: green;
+}

@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.tabla-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0b1c4d;
+  color: white;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.titulo-principal {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.titulo-dos {
+  font-size: 1.7rem;
+  margin: 20px 0;
+}
+
+
+.btn-abrir {
+  background-color: rgb(58, 91, 255);
+  border: none;
+  padding: 12px 30px;
+  border-radius: 12px;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(122, 149, 255, 0.7);
+  transition: 0.2s;
+}
+
+.btn-abrir:hover {
+  background-color: rgb(40, 67, 201);
+  transform: scale(1.05);
+}
+
+
+.input-selection {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.input-selection input {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+/*   border: none; */
+}
+
+.btn-add {
+  background-color: rgb(18, 77, 43);
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+/*   transition: 0.2s; */
+}
+
+.btn-add:hover {
+  background-color: oklch(66.288% 0.16022 152.395);
+  transform: scale(1.05);
+}
+
+
+.tabla-clients {
+  width: 80%;
+  max-width: 700px;
+  border-collapse: collapse;
+  background-color: rgb(22, 39, 95);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+
+.tabla-clients th {
+  background-color: rgb(32, 59, 137);
+  padding: 12px;
+  font-size: 1.1rem;
+}
+
+
+.tabla-clients td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid rgb(58, 79, 163);
+}
+
+
+/* .tabla-clients tr:last-child td {
+  border-bottom: none;
+} */
+
+
+.btn-borrar {
+  background-color: rgb(231, 76, 60);
+  padding: 8px 15px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-borrar:hover {
+  background-color: rgb(192, 57, 43);
+  transform: scale(1.08);
+}

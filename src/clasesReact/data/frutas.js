@@ -1,0 +1,201 @@
+export const fruits = [
+    {
+        id: 1,
+        name: 'Aguacate',
+        image: 'aguacate.jpg',
+        kcal: 134,
+        agua: 79,
+        hc: 1.3,
+        fibra: 2.4,
+        grasa: 13.8,
+        prot: 1.3
+    },
+    {
+        id: 2,
+        name: 'Albaricoque',
+        image: 'albaricoque.jpg',
+        kcal: 40,
+        agua: 86,
+        hc: 9.5,
+        fibra: 2.1,
+        grasa: 0.1,
+        prot: 0.8
+    },
+    {
+        id: 3,
+        name: 'Cerezas',
+        image: 'cereza.jpg',
+        kcal: 58,
+        agua: 82,
+        hc: 13.5,
+        fibra: 1.5,
+        grasa: 0.5,
+        prot: 0.8
+    },
+    {
+        id: 4,
+        name: 'Ciruela',
+        image: 'ciruela.jpg',
+        kcal: 45,
+        agua: 84,
+        hc: 11,
+        fibra: 2.1,
+        grasa: 0.15,
+        prot: 0.6
+    },
+    {
+        id: 5,
+        name: 'Fresas',
+        image: 'fresa.jpg',
+        kcal: 34,
+        agua: 88,
+        hc: 7,
+        fibra: 2.2,
+        grasa: 0.5,
+        prot: 0.7
+    },
+    {
+        id: 6,
+        name: 'Kiwy',
+        image: 'kiwy.jpg',
+        kcal: 53,
+        agua: 83,
+        hc: 12.1,
+        fibra: 1.5,
+        grasa: 0.44,
+        prot: 1
+    },
+    {
+        id: 7,
+        name: 'Limon',
+        image: 'limon.jpg',
+        kcal: 39,
+        agua: 87,
+        hc: 9,
+        fibra: 1,
+        grasa: 0.3,
+        prot: 0.7
+    },
+    {
+        id: 8,
+        name: 'Mandarina',
+        image: 'mandarina.jpg',
+        kcal: 39,
+        agua: 86,
+        hc: 9,
+        fibra: 1.9,
+        grasa: 0.19,
+        prot: 0.8
+    },
+    {
+        id: 9,
+        name: 'Manzana',
+        image: 'manzana.jpg',
+        kcal: 41,
+        agua: 85,
+        hc: 10.5,
+        fibra: 2.3,
+        grasa: 0.1,
+        prot: 0.3
+    },
+    {
+        id: 10,
+        name: 'Melocotón',
+        image: 'melocoton.jpg',
+        kcal: 37,
+        agua: 86,
+        hc: 9,
+        fibra: 2.3,
+        grasa: 0.1,
+        prot: 0.6
+    },
+    {
+        id: 11,
+        name: 'Melón',
+        image: 'melon.jpg',
+        kcal: 37,
+        agua: 88,
+        hc: 8.4,
+        fibra: 0.8,
+        grasa: 0.28,
+        prot: 0.9
+    },
+    {
+        id: 12,
+        name: 'Naranja',
+        image: 'naranja.jpg',
+        kcal: 38,
+        agua: 86,
+        hc: 8.6,
+        fibra: 2.3,
+        grasa: 0.3,
+        prot: 0.8
+    },
+    {
+        id: 13,
+        name: 'Pera',
+        image: 'pear.jpg',
+        kcal: 48,
+        agua: 84,
+        hc: 11.7,
+        fibra: 2.2,
+        grasa: 0.3,
+        prot: 0.4
+    },
+    {
+        id: 14,
+        name: 'Piña',
+        image: 'piña.jpg',
+        kcal: 46,
+        agua: 85,
+        hc: 11.5,
+        fibra: 1.2,
+        grasa: 0.1,
+        prot: 0.5
+    },
+    {
+        id: 15,
+        name: 'Plátano',
+        image: 'platano.jpg',
+        kcal: 85,
+        agua: 73,
+        hc: 20.8,
+        fibra: 2.5,
+        grasa: 0.27,
+        prot: 1.2
+    },
+    {
+        id: 16,
+        name: 'Sandía',
+        image: 'sandia.jpg',
+        kcal: 22,
+        agua: 93,
+        hc: 4.5,
+        fibra: 0.3,
+        grasa: 0.3,
+        prot: 0.5
+    },
+    {
+        id: 17,
+        name: 'Uva Blanca',
+        image: 'uvablanca.jpg',
+        kcal: 63,
+        agua: 81,
+        hc: 16.1,
+        fibra: 0.4,
+        grasa: 0.1,
+        prot: 0.6
+    },
+    {
+        id: 18,
+        name: 'Uva negra',
+        image: 'uvanegra.jpg',
+        kcal: 67,
+        agua: 81,
+        hc: 15.5,
+        fibra: 0.4,
+        grasa: 0.7,
+        prot: 0.6
+    },
+
+]

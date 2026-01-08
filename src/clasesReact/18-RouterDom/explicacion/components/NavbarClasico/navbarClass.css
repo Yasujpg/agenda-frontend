@@ -1,0 +1,19 @@
+.nav-ppal{
+    height: 50px;
+    background-color: rgb(133, 206, 248);
+    padding-left: 50px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+}
+.logo{
+    font-size: 2rem;
+}
+.sinSub{
+    text-decoration: none;
+}
+.active{
+    color: red;
+    font-weight: bolder;
+}

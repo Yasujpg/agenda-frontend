@@ -1,0 +1,33 @@
+.galeria-ppal{
+    height: 100vh;
+    width: 100vw;
+ nav{
+    display: flex;
+    justify-content: space-between;
+ }   
+ .cont-icono{
+    background-color: beige;
+
+    border-radius: 50%;
+ }
+}
+.claro{
+    background-color: beige;
+    color: black;
+}
+
+.oscuro{
+    background-color: black;
+    color: azure;
+}
+.cont-fotos{
+    display: flex;
+    gap: 10px;
+    img{
+        width: 150px;
+    }
+}
+.Imagen{
+    padding-top: 40px;
+    width: 500px;
+}

@@ -1,0 +1,11 @@
+.foto{
+    border: 1px solid #000;
+    width: 100px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        width: 90%;
+    }
+}

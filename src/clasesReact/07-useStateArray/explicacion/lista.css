@@ -1,0 +1,21 @@
+.lista-cont{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+.form-lista{
+    width: 40%;
+    border: 1px solid #000;
+    padding: 40px;
+}
+.lista{
+    width: 40%;
+    height: 80vh;
+    background-image: url(/images/listaCompra/paper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 125px;
+    padding-left: 70px;
+
+}

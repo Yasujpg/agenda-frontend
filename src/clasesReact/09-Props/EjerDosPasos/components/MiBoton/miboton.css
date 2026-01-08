@@ -1,0 +1,9 @@
+.mi-boton{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(9, 165, 238);
+    color: aliceblue;
+    border: none;
+}
